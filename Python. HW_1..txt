@@ -1,0 +1,40 @@
+var_string = 'string'                        # 1) Создать переменную типа String
+var_integer = 99                             # 2) Создать переменную типа Integer
+var_float = 15.5                             # 3) Создать переменную типа Float
+var_byte = 'Байты'.encode('utf-8')           # 4) Создать переменную типа Bytes
+var_list = ['s', 'p', ['isok'], 2]           # 5) Создать переменную типа List
+var_tuple = ('h', 'e', 'l', 'l', 'o', '!')   # 6) Создать переменную типа Tuple
+var_set = {'a', 'b', 'c', 'd'}               # 7) Создать переменную типа Set
+var_frozenset = frozenset('qwerty')          # 8. Создать переменную типа Frozen set
+var_dict = {'dict': 1, 'dictionary': 2}      # 9) Создать переменную типа Dict
+
+
+# 10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
+print(type(var_string), var_string)
+print(type(var_integer), var_integer)
+print(type(var_float), var_float)
+print(type(var_byte), var_byte)
+print(type(var_list), var_list)
+print(type(var_tuple), var_tuple)
+print(type(var_set), var_set)
+print(type(var_frozenset), var_frozenset)
+print(type(var_dict), var_dict)
+
+# 11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
+
+a = 'Две'
+b = ' переменные'
+c = a + b
+print(c)
+
+# 12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
+
+d = 'first'
+e = 'number'
+f = 1
+
+print(d, e, f, sep= ', ')
+
+# 13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
+
+print(d, "+", e, "+", f, sep ="")
